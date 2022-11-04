@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <script src="https://kit.fontawesome.com/27fefd11ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#">
+
+            </a>
+            <div class="icon-side">
+                <a href="./home.html" class="home icon">
+                    <i class="fa-sharp fa-solid fa-house-chimney"></i>
+                </a>
+                <a href="#" class="seach icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#" class="hamburger icon">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <section class="big-container">
+            <div class="container">
+                <h1>Contact Form</h1>
+                <!--I use section for every each form -->
+                <section class="section_form">
+                    <form action="">
+                        <label for="Fname" class="r_form">Fullname*</label>
+                        <input type="text" id="Fname" class="input" required>
+                        <label for="" class="required">Required</label>
+                    </form>
+                </section>
+                <section class="section_form">
+                    <form action="">
+                        <label for="Email" class="r_form">Email*</label>
+                        <input type="email " id="Email" placeholder="Please Enter E-mail" class="input" required>
+                        <label for="" class="required">Required</label>
+                    </form>
+                </section>
+                <!--I use tel for input type -->
+                <section class="section_form">
+                    <form action="">
+                        <label for="phone" class="r_form">Phone*</label>
+                        <input type="tel" id="phone" class="input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            placeholder="(___) ____ ____ ____" required>
+                        <label for="" class="required">Required</label>
+                    </form>
+                </section>
+                <section class="section_form">
+                    <form action="">
+                        <label for="password" class="r_form">Password*</label>
+                        <input type="text" id="password" class="input" required placeholder="******">
+                        <label for="" class="required">Required</label>
+                    </form>
+                </section>
+                <!--For button I prefer button type for input-->
+                <section class="section_form">
+                    <form action="">
+                        <input type="button" id="btn" class="btn_input" value="Send">
+                    </form>
+                </section>
+            </div>
+            <div class="location">
+                <h3>My Location</h3>
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=bern,%20marktgasse&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://123movies-to.org"></a><br>
+                        <a href="https://www.embedgooglemap.net">google maps embedded api</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-footer">
+            <div class="adress ">
+                <span class="email adress ">atli.senay@gmail.com</span>
+                <span class="date adress">&#169; 2022</span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
